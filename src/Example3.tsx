@@ -18,7 +18,10 @@ export const Example3 = () => {
         pane2-3
       </div>
     </Splitter>
-    <div style={{background: 'rgba(155, 100, 100, 0.5)', height: '100%'}}>pane1-1</div>
+    <div style={{background: 'rgba(155, 100, 100, 0.5)', height: '100%'}}>
+      <br/>
+      <div>pane1-1</div>
+    </div>
   </Splitter>
 </div>`
 
@@ -53,7 +56,10 @@ export const Example3 = () => {
 							pane2-3
 						</div>
 					</Splitter>
-					<div style={{background: 'rgba(155, 100, 100, 0.5)', height: '100%'}}>pane1-1</div>
+					<div style={{background: 'rgba(155, 100, 100, 0.5)', height: '100%'}}>
+						<br/>
+						<div>pane1-1</div>
+					</div>
 				</Splitter>
 			</div>
 		</div>
