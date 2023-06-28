@@ -1,0 +1,18 @@
+{
+  "version": "v1",
+  "packages": {
+    "my-npm-package": {
+      "signature": "e4aa82672148fe284683faa932fe35cf",
+      "file": true
+    },
+    "react-simple-splitter": {
+      "signature": "828b6caa52b325541f4d41caaf9be54c",
+      "file": true
+    },
+    "react-splitter-light": {
+      "signature": "bc493fc896376696ee0f6765334ac39c",
+      "file": true,
+      "replaced": "^1.0.0"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "react-splitter-light",
+  "version": "1.0.15",
+  "description": "A lightweight React component for creating adjustable split views with no extra dependencies.",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "NODE_ENV=production webpack",
+    "build:dev": "webpack"
+  },
+  "keywords": [
+    "splitter",
+    "allotment",
+    "resize",
+    "resizer",
+    "pane",
+    "grid template",
+    "react",
+    "typescript"
+  ],
+  "author": "kruglay",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0 <19.0.0",
+    "react-dom": ">=16.8.0 <19.0.0"
+  },
+  "yalcSig": "bc493fc896376696ee0f6765334ac39c"
+}
