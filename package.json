@@ -2,6 +2,7 @@
   "name": "cra-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://kruglay.github.io/rsl-demo",
   "dependencies": {
     "@geoffcox/react-splitter": "^2.1.2",
     "@testing-library/jest-dom": "^5.16.5",
@@ -21,8 +22,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -43,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
